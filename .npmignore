@@ -3,6 +3,7 @@ config
 dist
 document
 example
+test
 deploy.sh
 favicon.ico
 index.html

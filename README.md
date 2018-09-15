@@ -32,3 +32,9 @@ module.exports = {
   }
 }
 ```
+
+### import style in main.js
+```js
+// main.js
+import 'markdown-vuepress-loader/lib/style.css'
+```
