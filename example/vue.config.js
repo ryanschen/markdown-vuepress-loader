@@ -1,19 +1,6 @@
-# markdown-vuepress-loader
-:gear: markdown-loader built on vuepress  for webpack using marked.
-
-## Installation
----
-`npm install markdown-vuepress-loader -D`
-
-## Usage
----
-
-### Vue-cli 3.0+
-
-```js
-// vue.config.js
 module.exports = {
-  // ...
+  baseUrl: '/',
+  productionSourceMap: false,
   chainWebpack: config => {
     config.module
       .rule('markdown')
@@ -27,8 +14,8 @@ module.exports = {
       })
       .end()
       .use('markdown-loader')
-      .loader('markdown-vuepress-loader')
+      .loader(require.resolve('../lib'))
+      // .loader(require.resolve('./markdownLoader'))
     // .options({ markdown })
   }
 }
-```

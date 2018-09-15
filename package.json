@@ -1,0 +1,37 @@
+{
+  "name": "markdown-vuepress-loader",
+  "version": "0.0.1",
+  "description": "Markdown loader built on vuepress for webpack",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanschen/markdown-vuepress-loader.git"
+  },
+  "keywords": [
+    "markdown-loader",
+    "webpack",
+    "plugin",
+    "markdown",
+    "html",
+    "loader",
+    "vuepress"
+  ],
+  "author": "ryanxchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanschen/markdown-vuepress-loader/issues"
+  },
+  "homepage": "https://github.com/ryanschen/markdown-vuepress-loader#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-table-of-contents": "^0.4.3",
+    "prismjs": "^1.15.0"
+  }
+}

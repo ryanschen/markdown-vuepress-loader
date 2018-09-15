@@ -1,0 +1,196 @@
+code {
+  color: lighten(#2c3e50, 20%);
+  padding: 0.25rem 0.5rem;
+  margin: 0;
+  font-size: 0.85em;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
+}
+
+pre, pre[class*="language-"] {
+  background-color: #f8f8f8;
+  line-height: 1.4;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin: 0.85rem 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: auto;
+  position: relative;
+  text-align: left;
+}
+pre code, pre[class*="language-"] code {
+  color: #fff;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+pre code::before, pre[class*="language-"] code::before {
+  position: absolute;
+  top: 0.8em;
+  right: 1em;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+pre code .highlighted-line, pre[class*="language-"] code .highlighted-line {
+  background-color: rgba(0, 0, 0, 66%);
+  display: block;
+  margin: 0 -1.5rem;
+  padding: 0 1.5rem;
+}
+pre[class="language-js"]:before, pre[class="language-javascript"]:before {
+  content: "js"
+}
+
+pre[class="language-html"]:before, pre[class="language-markup"]:before {
+  content: "html";
+}
+
+pre[class="language-markdown"]:before, pre[class="language-md"]:before {
+  content: "md";
+}
+
+pre[class="language-vue"]:before {
+  content: "vue";
+}
+
+pre[class="language-css"]:before {
+  content: "css";
+}
+
+pre[class="language-sass"]:before {
+  content: "sass";
+}
+
+pre[class="language-less"]:before {
+  content: "less";
+}
+
+pre[class="language-scss"]:before {
+  content: "scss";
+}
+
+pre[class="language-stylus"]:before {
+  content: "stylus";
+}
+
+pre[class="language-json"]:before {
+  content: "json";
+}
+
+pre[class="language-ruby"]:before {
+  content: "rb";
+}
+
+pre[class="language-python"]:before {
+  content: "py";
+}
+
+pre[class="language-go"]:before {
+  content: "go";
+}
+
+pre[class="language-java"]:before {
+  content: "java";
+}
+
+pre[class="language-c"]:before {
+  content: "c";
+}
+
+pre[class="language-bash"]:before {
+  content: "sh";
+}
+
+.content pre, .content pre[class*="language-"] {
+  border: 1px #eaecef solid;
+}
+.token.selector, .token.important, .token.atrule, .token.keyword, .token.builtin {
+  color: #E91E63;
+}
+.content pre code, .content pre[class*="language-"] code {
+  color: #525252;
+}
+.token.string, .token.char, .token.attr-value, .token.regex, .token.variable {
+  color: #389d70;
+}
+.token.punctuation {
+  color: #2973b7;
+}
+.token.boolean, .token.number, .token.function {
+  color: #e96900;
+}
+.token.comment, .token.block-comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #b3b3b3;
+}
+.token.operator, .token.entity, .token.url {
+  color: #cd6767;
+}
+.token.tag {
+  color: #3ca0e6;
+}
+.token.attr-name, .token.namespace, .token.deleted {
+  color: #fc9153;
+}
+.token.punctuation {
+  color: #666666;
+}
+.token.string, .token.char, .token.attr-value, .token.regex, .token.variable {
+  color: #3fb374;
+}
+.token.property {
+  color: #4a90e2;
+}
+
+.custom-block .custom-block-title {
+  font-weight: 600;
+  margin-bottom: -0.4rem;
+}
+.custom-block.tip,
+.custom-block.warning,
+.custom-block.danger {
+  padding: .1rem 1.5rem;
+  border-left-width: .5rem;
+  border-left-style: solid;
+  margin: 1rem 0;
+  text-align: left;
+
+}
+.custom-block.tip {
+  background-color: #f3f5f7;
+  border-color: #42b983;
+}
+.custom-block.warning {
+  background-color: rgba(255,229,100,.3);
+  border-color: #e4bd00;
+  color: #645300;
+}
+.custom-block.warning .custom-block-title {
+  color: #b19300;
+}
+.custom-block.warning a {
+  color: #2c3e50;
+}
+.custom-block.danger {
+  background-color: #ffe6e6;
+  border-color: #c00;
+  color: #4d0000;
+}
+.custom-block.danger .custom-block-title {
+  color: #900;
+}
+.custom-block.danger a {
+  color: #2c3e50;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+tr {
+  border-top: 1px solid #dfe2e5;
+}
+td, th {
+    border: 1px solid #dfe2e5;
+    padding: .6em 1em;
+}
