@@ -1,5 +1,5 @@
 # markdown-vuepress-loader
-:gear: markdown-loader built on vuepress  for webpack using marked.
+:package: markdown-loader built on vuepress  for webpack using marked.
 
 ### Installation
 `npm install markdown-vuepress-loader -D`
